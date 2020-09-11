@@ -1,1 +1,12 @@
+#bgNavy{
+    background-color: navy;
+    }
 
+#txtGold{
+    color: gold;
+    font-family: 'Anton', sans-serif;
+    font-weight: bold;
+    font-size: x-large;
+ }
+ @media only screen and (min-width: 769px) {                     
+}
