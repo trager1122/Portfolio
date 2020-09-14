@@ -3,12 +3,12 @@
     background-color: navy;
     }
 
-/* Navigation Name Styling */
-#txtGold{
+/* Navigation Title Styling */
+.NavTitleStyle{
     color: gold;
     font-family: 'Anton', sans-serif;
     font-weight: bold;
-    font-size: x-large;
+    font-size: 24px;
 }
 
 /* Navigation Link Styling */
@@ -23,11 +23,13 @@ a{
     background-image: url(../images/patrick-tomasso-bricks.jpg);
 }
 
+/* Container Background */
 #About{
     background-color: gold;
     padding-bottom: 10px;
 }
 
+/* Index Page Header Styling */
 h1{
     color: navy;
     font-size: 64px;
@@ -37,17 +39,45 @@ h1{
     border-color: navy;
 }
 
-img{
+/* Image Presets */
+.Headshot{
     float: left;
     max-height: 300px;
     max-width: 300px;
 }
 
+/* About Me Article Styling */
 .Bio{
     font-size: 24px;
     font-family: 'Barlow', sans-serif;
     color: navy
 }
+
+/* Contact Message Styling */
+.ContactMsgStyle{
+    font-size: 24px;
+    font-family: 'Barlow', sans-serif;
+    color: black;
+    font-weight: bolder;
+}
+
+/* Contact Form Styling */
+.FormTxtStyle{
+    font-size: 20px;
+    font-family: 'Barlow', sans-serif;
+    color: gold;
+    font-weight: bold;
+}
+
+/* Contact Information Styling */
+.MyContactInfoStyle{
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
+    font-family: 'Barlow', sans-serif;
+}
+
+/* Footer Styling */
 footer{
     background-color: navy;
     color:gold;
