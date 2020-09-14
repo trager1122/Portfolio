@@ -1,12 +1,55 @@
+/* Navigation Background Styling */
 #bgNavy{
     background-color: navy;
     }
 
+/* Navigation Name Styling */
 #txtGold{
     color: gold;
     font-family: 'Anton', sans-serif;
     font-weight: bold;
     font-size: x-large;
- }
- @media only screen and (min-width: 769px) {                     
+}
+
+/* Navigation Link Styling */
+a{
+    color: gold;
+    font-family: 'Barlow', sans-serif;
+}
+
+/* Portfolio Background Image */
+.hero{
+    min-height: auto;
+    background-image: url(../images/patrick-tomasso-bricks.jpg);
+}
+
+#About{
+    background-color: gold;
+    padding-bottom: 10px;
+}
+
+h1{
+    color: navy;
+    font-size: 64px;
+    font-family: 'Barlow', sans-serif;
+    border-style: solid;
+    border-bottom: 2px;
+    border-color: navy;
+}
+
+img{
+    float: left;
+    max-height: 300px;
+    max-width: 300px;
+}
+
+.Bio{
+    font-size: 24px;
+    font-family: 'Barlow', sans-serif;
+    color: navy
+}
+footer{
+    background-color: navy;
+    color:gold;
+    text-align: center;
 }
