@@ -7,7 +7,6 @@
 .NavTitleStyle{
     color: gold;
     font-family: 'Anton', sans-serif;
-    font-weight: bold;
     font-size: 24px;
 }
 
@@ -68,10 +67,15 @@ h1{
     font-family: 'Barlow', sans-serif;
 }
 
+/* Image Sizing */
+.ScrShotSize{
+    height: 350px;
+    width: 350px;
+}
+
 /* Footer Styling */
 footer{
     background-color: navy;
     color:gold;
     text-align: center;
-    position: sticky;
 }
