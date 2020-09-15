@@ -13,15 +13,14 @@
 
 /* Navigation Link Styling */
 a{
-    color: gold;
     font-family: 'Barlow', sans-serif;
 }
 
 /* Portfolio Background Image */
-.hero{
-    min-height: auto;
+ .hero{ 
+    min-height: 100%; 
     background-image: url(../images/patrick-tomasso-bricks.jpg);
-}
+} 
 
 /* Container Background */
 #About{
@@ -53,19 +52,11 @@ h1{
     color: navy
 }
 
-/* Contact Message Styling */
-.ContactMsgStyle{
-    font-size: 24px;
-    font-family: 'Barlow', sans-serif;
-    color: black;
-    font-weight: bolder;
-}
-
 /* Contact Form Styling */
 .FormTxtStyle{
     font-size: 20px;
     font-family: 'Barlow', sans-serif;
-    color: gold;
+    color: navy;
     font-weight: bold;
 }
 
@@ -82,4 +73,5 @@ footer{
     background-color: navy;
     color:gold;
     text-align: center;
+    position: sticky;
 }
