@@ -22,9 +22,8 @@ a{
 } 
 
 /* Container Background */
-#About{
+.ContBg{
     background-color: gold;
-    padding-bottom: 10px;
 }
 
 /* Index Page Header Styling */
@@ -32,16 +31,14 @@ h1{
     color: navy;
     font-size: 64px;
     font-family: 'Barlow', sans-serif;
-    border-style: solid;
-    border-bottom: 2px;
-    border-color: navy;
 }
 
 /* Image Presets */
 .Headshot{
     float: left;
     max-height: 300px;
-    max-width: 300px;
+    width: 300px;
+    max-width: 100%;
 }
 
 /* About Me Article Styling */
@@ -59,18 +56,16 @@ h1{
     font-weight: bold;
 }
 
-/* Contact Information Styling */
-.MyContactInfoStyle{
-    font-size: 16px;
-    color: black;
-    font-weight: bold;
-    font-family: 'Barlow', sans-serif;
-}
-
 /* Image Sizing */
 .ScrShotSize{
-    height: 350px;
+    min-height: 100%;
     width: 350px;
+    min-width: 100%;
+}
+
+/* Text Box Sizing */
+.MessageBox{
+    height: 100px !important
 }
 
 /* Footer Styling */
