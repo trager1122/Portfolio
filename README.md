@@ -2,7 +2,7 @@ Address for page address
 https://trager1122.github.io/Portfolio/
 
 Screenshot of deployed page
-![2020-09-15](https://user-images.githubusercontent.com/69808653/93267218-50632600-f779-11ea-993c-d3b15e8a6645.png)
+![2020-09-15 (2)](https://user-images.githubusercontent.com/69808653/93285172-40ac0780-f7a2-11ea-90ae-25b680188d60.png)
 
 
 Address for the repo
